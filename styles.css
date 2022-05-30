@@ -1,0 +1,166 @@
+body {
+    background: rgb(191, 199, 247);
+    font-family: sans-serif, arial;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+#page-wrapper {
+    position: relative;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around; 
+    font-weight: bold;
+    background-color: blue;
+}
+
+#header-img {
+    width: 130px;
+    height: 130px;
+}
+
+.logo > img {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 650px) {
+    .logo {
+      margin-top: 15px;
+      width: 100%;
+      position: relative;
+    }
+  }
+
+#nav-bar {
+    position: fixed;
+}
+
+.nav-link {
+    color: white;
+}
+
+nav > ul {
+    display: flex;
+    width: 80vw;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#little-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.submit-btn {
+    width: 100%;
+    max-width: 70%;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-top: 7px;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.grid {
+    display: flex;
+}
+
+.img-icon {
+    height: 30px;
+    width: 30px;
+}
+
+#features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 150px;
+}
+
+#features .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px;
+}
+
+.description > h2 {
+    font-size: 12px;
+}
+
+#our-guitars {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+#our-guitars > iframe {
+    max-width: 500px;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#order-now {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.guitars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 6px;
+}
+
+.guitars > ol {
+    margin: 35px;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+}
+
+.guitar-title {
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.buy-btn {
+    margin: 25px;
+    padding: 6px;
+    background-color: rgba(0, 110, 255, 0.664);
+    border: 1;
+    border-radius: 4px;
+}
